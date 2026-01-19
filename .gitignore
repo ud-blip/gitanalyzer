@@ -22,3 +22,33 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+
+target/
+*.jar
+*.war
+*.ear
+*.class
+.mvn/wrapper/maven-wrapper.jar
+
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+### --- IDE (VS Code) ---
+.vscode/
+bin/
+
+### --- Docker & OS ---
+.DS_Store
+Thumbs.db
+.docker/
+.env
+
+temp-repos/
+git-storage/
+
+logs/
+*.log
